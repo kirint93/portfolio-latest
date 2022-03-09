@@ -590,38 +590,38 @@ $Tertiary-color: #191919;
 
       .me {
         width: 250px;
-        margin-left: 20px;
+        margin-left: 80px;
         height: 200px;
       }
       .about-me {
-        width: 250px;
+        width: 350px;
         margin-left: 20px;
         font-size: 10px;
-        height:700px;
+        height:500px;
       }
       .skills {
         height: 800px;
         width: 250px;
         .headers{
-          margin-right: 30px;
+          margin-left: 100px;
         }
 
 
         .icon {
           display: flex;
           flex-direction: row;
-          width: 90%;
-          margin-left: 1px;
+          width: 100%;
+          margin-left: 50px;
           margin-right: 0;
           padding-left: 2px;
         }
 
         .skillsExposed {
-          width: 250px;
+          width: 500px;
 
 
           .icon2 {
-            margin-left: 2px;
+            margin-left: 3px;
             display: flex;
             flex-direction: row;
 
@@ -629,25 +629,15 @@ $Tertiary-color: #191919;
         }
 
         .soft-skills {
-          position: relative;
-          font-weight: bold;
-          color: green;
+
+
           padding-left: 10px;
           padding-right: 10px;
-          margin: 20px 60px 0 20px;
-          font-size: 20px;
-          background-color: $color;
 
-          h3 {
-            padding-top: 1%;
-            color: $primary-color;
-            font-size: 25px;
 
-            .ul {
-              color: $Tertiary-color;
-            }
+
+
           }
-        }
       }
     }
     //     h2 {
@@ -656,7 +646,7 @@ $Tertiary-color: #191919;
     .projects {
       width: 100%;
       background-size: 100% 100%;
-      height: 1350vh;
+      height: fit-content;
 
       .project-container {
 
@@ -670,7 +660,7 @@ $Tertiary-color: #191919;
           // margin-bottom: 170px;
           margin-left: 140px;
           width: 50%;
-          height:1100px;
+          height:800px;
 
            .card-body {
             height:100%
@@ -695,11 +685,11 @@ $Tertiary-color: #191919;
               margin-right: 20px;
             }
             .info3456 {
-              color: $Tertiary-color;
-              padding-top: 20px;
+
+
              font-size: 15px;
 
-              height: 650px;
+              height: 450px;
             }
 
             .card-link,
@@ -712,76 +702,60 @@ $Tertiary-color: #191919;
       }
     }
     #contact {
-      height: fit-content;
-      margin-top: 800px;
+      height: 350px;
+
       margin-left: 2px;
 
-      .contact {
-        margin-right: 10px;
-      }
+
+
 
       .text {
         width: 50%;
-        font-size: 15px;
         margin-left: 80px;
         margin-bottom: 1%;
+        color: $Tertiary-color;
+
       }
       .contact-icons-container {
-        width: 14%;
-        height: 1%;
-        margin-bottom: 70px;
-        margin-left: 100px;
+        width: 45%;
+        margin-left: 60px;
 
-        a {
-          margin: 30px 30px 10px;
-          color: white;
+        a{
+           margin-bottom: 20px;
         }
+
       }
 
-      .contact-form {
-        width: 90%;
-        height: 570px;
-        margin-top: 6%;
-        margin-left: 10px;
-        margin-bottom: 2px;
-        border-radius: 5px;
-        display: flex;
-        flex-direction: column;
+        .contact-form {
 
-        .input-fields {
-          display: flex;
-          flex-direction: column;
+            margin-left: 70px;
+            width: 250px;
 
-          width: 270px;
-          padding: 20px;
-        }
 
-        .input-fields,
-        .content {
-          width: 100%;
+            .input-fields,
+            .content {
+              width: 80%;
+              margin-bottom: 20px;
 
-          input,
-          textarea {
-            margin: 10px 0;
 
-            width: 100%;
-          }
-
-          textarea {
-            height: 100px;
-          }
-          .button {
-            width: 40%;
-            align-items: center;
+            input,
+            textarea {
             margin-left: 3px;
 
-            height: 50px;
-            font-size: 15px;
-          }
+            width: 80%;
         }
-      }
+        textarea {
+            height: 110px;
+          }
     }
+      }
+
   }
+  footer{
+  display:none;
+
+  }
+}
 }
 @media only screen and (min-width: 1440px) {
   .headers {
